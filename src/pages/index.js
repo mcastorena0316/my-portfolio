@@ -14,7 +14,7 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title}</title>
         <html lang={lang} />
-        <meta name="description" content={description || "Meli Castorena's Portfolio"} />
+        <meta name="description" content={description} />
       </Helmet>
       <App />
     </>

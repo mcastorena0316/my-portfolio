@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, tec1, tec2, tec3, tec4 } = project;
 
             return (
               <Row key={id}>
@@ -41,12 +41,9 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
+                        <p>{info}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
@@ -104,6 +101,10 @@ const Projects = () => {
                           </div>
                         </Tilt>
                       </a>
+                      <p className="cta-btn text-color-main">{tec1}</p>
+                      <p className="cta-btn text-color-main">{tec2}</p>
+                      <p className="cta-btn text-color-main">{tec3}</p>
+                      <p className="cta-btn text-color-main">{tec4}</p>
                     </div>
                   </Fade>
                 </Col>
