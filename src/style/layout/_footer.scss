@@ -7,9 +7,14 @@
     border: 0px;
   }
 
-  &__text {
+  &__date {
     color: darken(white, 50%);
     font-size: 1.3rem;
+  }
+
+  &__text {
+    color: white;
+    font-size: 2rem;
 
     a {
       color: darken(white, 50%);

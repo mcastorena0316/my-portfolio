@@ -15,9 +15,7 @@ const Footer = () => {
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
-        <p className="contact-wrapper__text">
-          Would you like to work with me? Awesome! Let&quot;s Talk
-        </p>
+        <p className="footer__text">Would you like to work with me? Awesome! Let&lsquo;s Talk</p>
         <div className="social-links">
           {networks &&
             networks.map((network) => {
@@ -30,7 +28,7 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className="footer__text">© {new Date().getFullYear()}</p>
+        <p className="footer__date">© {new Date().getFullYear()}</p>
       </Container>
     </footer>
   );

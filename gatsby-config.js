@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Melissa Castorena's Portfolio`,
-        short_name: `Mc Portfolio`,
+        short_name: `MC Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,

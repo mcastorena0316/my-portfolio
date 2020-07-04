@@ -23,7 +23,7 @@ export const aboutData = {
     ' When I’m not coding, I enjoy: cooking for others (usually my husband), play around with Benito and Lucho (my cats and bosses), and spend more time outdoors as possible.',
   paragraphThree:
     "Below you can see the result of my +1300 hours of work I’ve been doing for the last months. Some of them were made working on pair programming, an amazing experience that helped me interact with people from all over the world. Feel free to give them a look. I'm always available to have a good conversation, so don't be shy to contact me by mail or twitter.",
-  resume: 'https://www.resumemaker.online/es.php',
+  resume: 'https://resume.creddle.io/resume/7e3mp9wmmwy',
 };
 
 // PROJECTS DATA
@@ -115,12 +115,15 @@ export const projectsData = [
   },
 ];
 
-// // CONTACT DATA
-// export const contactData = {
-//   cta: '',
-//   btn: '',
-//   email: 'mcastorena0316@gmail.com',
-// };
+// // ARTICLE DATA
+export const articleData = {
+  title1: 'Hacerknoon-The Definitive Command Cheat Sheet for Rails Beginners',
+  title2: 'Hackernoon-Understanding (And Making Your Life Easier) With Bootstrap',
+  title3: 'Hackernoon-Beginners Guider To React Router',
+  url1: 'https://hackernoon.com/the-definitive-command-cheat-sheet-for-rails-beginners-2uli3yb8',
+  url2: 'https://hackernoon.com/understanding-and-making-your-life-easier-with-bootstrap-nnr2gpb',
+  url3: 'https://hackernoon.com/beginners-guider-to-react-router-dw1j3uuq',
+};
 
 // FOOTER DATA
 export const footerData = {
