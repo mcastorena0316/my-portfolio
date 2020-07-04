@@ -15,6 +15,9 @@ const Footer = () => {
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
+        <p className="contact-wrapper__text">
+          Would you like to work with me? Awesome! Let&quot;s Talk
+        </p>
         <div className="social-links">
           {networks &&
             networks.map((network) => {

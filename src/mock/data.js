@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, my name is',
+  name: 'Melissa Castorena',
+  subtitle: "I'm a Full Stack Developer.",
+  cta: 'Know more',
 };
 
 // ABOUT DATA
@@ -85,7 +85,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'game.png',
+    img: 'game2.png',
     title: 'Shooter Game: CatGun',
     info:
       'The objective of this project was to design and build a platform game like the one in Space Shooter Game using Phaser and Javascript among other technologies.',
@@ -100,7 +100,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'illnest.png',
+    img: 'illnest2.png',
     title: 'illnest',
     info:
       'The objective of this project was to create a mobile tracking App in which a user is presented with a list of things to be measured. For the Front End, I used React and Ruby on Rails for the Back-End API',
@@ -115,12 +115,12 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: 'mcastorena0316@gmail.com',
-};
+// // CONTACT DATA
+// export const contactData = {
+//   cta: '',
+//   btn: '',
+//   email: 'mcastorena0316@gmail.com',
+// };
 
 // FOOTER DATA
 export const footerData = {
