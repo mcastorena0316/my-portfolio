@@ -130,22 +130,22 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
+      name2: 'twitter',
       url: 'https://twitter.com/melicastorena16',
     },
     {
       id: nanoid(),
-      name: 'envelope',
+      name2: 'envelope',
       url: 'mailto: mcastorena0316@gmail.com',
     },
     {
       id: nanoid(),
-      name: 'linkedin',
+      name2: 'linkedin',
       url: 'https://www.linkedin.com/in/melissa-castorena/',
     },
     {
       id: nanoid(),
-      name: 'github',
+      name2: 'github',
       url: 'https://github.com/mcastorena0316',
     },
   ],

@@ -5,8 +5,9 @@ import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
 const Header = () => {
-  const { hero } = useContext(PortfolioContext);
+  const { hero, footer } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
+  const { networks } = footer;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,6 +40,23 @@ const Header = () => {
               </Link>
             </span>
           </p>
+          <div className="social-links header-links">
+            {networks &&
+              networks.map((network) => {
+                const { id, name2, url } = network;
+                return (
+                  <a
+                    key={id}
+                    href={url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    aria-label={name2}
+                  >
+                    <i className={`fa fa-${name2 || 'refresh'} fa-inverse`} />
+                  </a>
+                );
+              })}
+          </div>
         </Fade>
       </Container>
     </section>

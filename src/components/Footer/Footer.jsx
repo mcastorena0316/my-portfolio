@@ -19,10 +19,10 @@ const Footer = () => {
         <div className="social-links">
           {networks &&
             networks.map((network) => {
-              const { id, name, url } = network;
+              const { id, name2, url } = network;
               return (
-                <a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                <a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name2}>
+                  <i className={`fa fa-${name2 || 'refresh'} fa-inverse`} />
                 </a>
               );
             })}
