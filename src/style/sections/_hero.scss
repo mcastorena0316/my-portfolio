@@ -59,8 +59,9 @@
   }
 
   .header-links {
-    & a i {
-      color:$dark-blue-text !important}
+    justify-content: left !important;
 
+    & a i {
+      color:$dark-blue-text!important}
   }
 }
