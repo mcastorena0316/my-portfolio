@@ -61,6 +61,10 @@
   .header-links {
     justify-content: left !important;
 
+    @include respond(tab-port) {
+      justify-content: center !important;
+    }
+
     & a i {
       color:$dark-blue-text!important}
   }
